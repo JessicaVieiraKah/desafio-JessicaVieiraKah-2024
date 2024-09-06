@@ -1,13 +1,5 @@
 <<<<<<< HEAD
 # desafio-JessicaVieiraKah-2024
-
-ENTRADAS E SAÍDAS
-O programa deve receber tipo e quantidade de animal (nessa ordem)
-O programa deve retornar uma estrutura contendo a lista de todos os recintos viáveis ordenada pelo número do recinto (caso existam) e a mensagem de erro (caso exista)
-A lista de recintos viáveis deve indicar o espaço livre que restaria após a inclusão do(s) animal(is) e o espaço total, no formato "Recinto nro (espaço livre: valorlivre total: valortotal)"
-Caso animal informado seja inválido, apresentar erro "Animal inválido"
-Caso quantidade informada seja inválida, apresentar erro "Quantidade inválida"
-Caso não haja recinto possível, apresentar erro "Não há recinto viável"
 =======
 # RECINTOS DO ZOO
 
