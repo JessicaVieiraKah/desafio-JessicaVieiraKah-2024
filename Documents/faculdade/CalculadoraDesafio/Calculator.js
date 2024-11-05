@@ -1,28 +1,28 @@
-function calcularRank(vitorias, derrotas) {
-    // Calcula o saldo de vitórias
-    const saldoVitorias = vitorias - derrotas;
-    let nivel;
+function calculateRank(wins, losses) {
+    // Calculate the win balance
+    const winBalance = wins - losses;
+    let level;
 
-    // Define o nível do jogador com base na quantidade de vitórias
-    if (vitorias < 10) {
-        nivel = "Ferro";
-    } else if (vitorias >= 11 && vitorias <= 20) {
-        nivel = "Bronze";
-    } else if (vitorias >= 21 && vitorias <= 50) {
-        nivel = "Prata";
-    } else if (vitorias >= 51 && vitorias <= 80) {
-        nivel = "Ouro";
-    } else if (vitorias >= 81 && vitorias <= 90) {
-        nivel = "Diamante";
-    } else if (vitorias >= 91 && vitorias <= 100) {
-        nivel = "Lendário";
-    } else if (vitorias >= 101) {
-        nivel = "Imortal";
+    // Determine the player's level based on the number of wins
+    if (wins < 10) {
+        level = "Iron";
+    } else if (wins >= 11 && wins <= 20) {
+        level = "Bronze";
+    } else if (wins >= 21 && wins <= 50) {
+        level = "Silver";
+    } else if (wins >= 51 && wins <= 80) {
+        level = "Gold";
+    } else if (wins >= 81 && wins <= 90) {
+        level = "Diamond";
+    } else if (wins >= 91 && wins <= 100) {
+        level = "Legendary";
+    } else if (wins >= 101) {
+        level = "Immortal";
     }
 
-    // Exibe o saldo e o nível do jogador
-    console.log(`O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`);
+    // Display the player's balance and level
+    console.log(`The Hero has a balance of ${winBalance} and is at the ${level} level.`);
 }
 
-// Exemplo de chamada da função
-calcularRank(55, 10);
+// Example of calling the function
+calculateRank(55, 10);
